@@ -40,7 +40,7 @@
 
     <div class="button-container">
         <button id="openWhatsApp1">Триумф шашлык нажмите чтобы заказать</button>
-        <button id="openWhatsApp2">Доставка супа нажмите чтобы заказать</button>
+        <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
     </div>
 
     <script>
