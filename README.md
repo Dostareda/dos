@@ -79,7 +79,7 @@
         // Обработчик для второй кнопки
         const button2 = document.getElementById("openWhatsApp2");
         button2.addEventListener("click", function () {
-            const phoneNumber2 = "77474706060"; // Измените номер, если нужно
+            const phoneNumber2 = "77081175050"; // Измените номер, если нужно
             const url2 = `https://api.whatsapp.com/send?phone=${phoneNumber2}`;
             window.open(url2, "_blank");
         });
