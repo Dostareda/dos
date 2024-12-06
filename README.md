@@ -40,10 +40,13 @@
             margin: 20px 0;
         }
         footer {
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top: 20px;
             font-size: 14px;
             color: #666666;
+            gap: 10px; /* Отступ между элементами */
         }
         footer a {
             color: #808080;
@@ -51,6 +54,10 @@
         }
         footer a:hover {
             text-decoration: underline;
+        }
+        #visitor-count {
+            font-size: 14px;
+            color: #555555;
         }
     </style>
 </head>
@@ -64,11 +71,29 @@
         <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
     </div>
 
+    <!-- Счетчик и пользовательское соглашение в футере -->
     <footer>
-        <p><a href="terms.html" target="_blank">Пользовательское соглашение</a></p>
+        <div id="visitor-count">Посетители: 0</div>
+        <a href="terms.html" target="_blank">Пользовательское соглашение</a>
     </footer>
 
     <script>
+        // Счетчик посещений
+        function updateVisitorCount() {
+            if (localStorage.getItem("visitorCount")) {
+                let count = parseInt(localStorage.getItem("visitorCount"), 10);
+                count++;
+                localStorage.setItem("visitorCount", count);
+                document.getElementById("visitor-count").innerText = `Посетители: ${count}`;
+            } else {
+                localStorage.setItem("visitorCount", 1);
+                document.getElementById("visitor-count").innerText = `Посетители: 1`;
+            }
+        }
+
+        // Обновляем счетчик при загрузке страницы
+        updateVisitorCount();
+
         // Обработчик для первой кнопки
         const button1 = document.getElementById("openWhatsApp1");
         button1.addEventListener("click", function () {
@@ -80,7 +105,7 @@
         // Обработчик для второй кнопки
         const button2 = document.getElementById("openWhatsApp2");
         button2.addEventListener("click", function () {
-            const phoneNumber2 = "77081175050"; // Измените номер, если нужно
+            const phoneNumber2 = "77081175050";
             const url2 = `https://api.whatsapp.com/send?phone=${phoneNumber2}`;
             window.open(url2, "_blank");
         });
