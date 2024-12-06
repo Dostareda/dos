@@ -33,6 +33,19 @@
             text-align: left; /* Выравнивание кнопок по левому краю */
             margin-left: 20px; /* Отступ слева от края страницы */
         }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666666;
+        }
+        footer a {
+            color: #808080;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +55,10 @@
         <button id="openWhatsApp1">Триумф шашлык нажмите чтобы заказать</button>
         <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
     </div>
+
+    <footer>
+        <p><a href="terms.html" target="_blank">Пользовательское соглашение</a></p>
+    </footer>
 
     <script>
         // Обработчик для первой кнопки
