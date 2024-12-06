@@ -76,7 +76,7 @@
             window.open(url, "_blank");
         });
 	<button id="openWhatsApp">Doner нажмите что бы заказать</button>
-
+    </script>
     <script>
         // Получаем кнопку
         const button = document.getElementById("openWhatsApp");
