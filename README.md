@@ -52,7 +52,30 @@
 
 
 
-    <button id="openWhatsApp">Master doner нажмите для заказа</button>
+    <button id="openWhatsApp">Триумф шашлык нажмите что бы заказать</button>
+
+    <script>
+        // Получаем кнопку
+        const button = document.getElementById("openWhatsApp");
+
+        // Устанавливаем стили
+        button.style.backgroundColor = "#FFFF00"; // Желтый фон
+        button.style.color = "black"; // Черный текста
+        button.style.width = "auto"; // Ширина кнопки
+        button.style.height = "auto"; // Автовысота
+        button.style.border = "2px solid green"; // Зеленая рамка
+        button.style.fontSize = "16px"; // Размер текста
+        button.style.float = "left"; // Размещаем кнопку слева
+        button.style.marginTop = "20px"; // Отступ сверху (по желанию)
+		button.style.fontFamily = "'Ink Free', cursive";
+
+        // Обработчик клика
+        button.addEventListener("click", function () {
+            const phoneNumber = "77474705053";
+            const url = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+            window.open(url, "_blank");
+        });
+	<button id="openWhatsApp">Doner нажмите что бы заказать</button>
 
     <script>
         // Получаем кнопку
