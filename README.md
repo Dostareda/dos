@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ДОСТАР <br> доставка еды</title>
+    <title>ДОСТАР доставка еды</title>
     <style>
         body {
             background-color: #FFFFFF; /* Белый фон */
@@ -55,7 +55,8 @@
     </style>
 </head>
 <body>
-    <h1>"ДОСТАР" ДОСТАВКА ЕДЫ</h1>
+    <!-- Добавлен перенос строки после слова "ДОСТАР" -->
+    <h1>"ДОСТАР"<br>ДОСТАВКА ЕДЫ</h1>
 
     <!-- Контейнер с автоматическим выравниванием кнопок -->
     <div class="button-container">
