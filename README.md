@@ -12,26 +12,32 @@
             color: #008000; /* Зеленый цвет заголовка */
             text-align: center; /* Выравнивание заголовка */
         }
+        /* Общие стили кнопок */
         button {
-            display: block;
-            margin: 20px 0; /* Отступ сверху и снизу */
             padding: 10px 20px; /* Внутренние отступы */
             background-color: #FFFF00; /* Желтый фон */
             color: black; /* Черный текст */
-            border: 2px solid green; /* Зеленая рамка */
+            border: 1px solid green; /* Зеленая рамка */
             border-radius: 5px; /* Слегка закругленные углы */
             cursor: pointer;
             font-size: 16px; /* Размер текста */
             font-family: Arial, sans-serif; /* Стандартный шрифт для кнопок */
-            text-align: left; /* Текст кнопки слева */
+            text-align: center; /* Центрирование текста */
+            flex-grow: 1; /* Кнопки занимают одинаковое пространство */
+            max-width: 400px; /* Максимальная ширина кнопок */
+            margin: 5px 0; /* Небольшой отступ между кнопками */
         }
         button:hover {
             background-color: #FFD700; /* Темно-желтый при наведении */
             color: black;
         }
+        /* Контейнер для кнопок с автоматическим выравниванием */
         .button-container {
-            text-align: left; /* Выравнивание кнопок по левому краю */
-            margin-left: 20px; /* Отступ слева от края страницы */
+            display: flex; /* Используем flexbox */
+            flex-direction: column; /* Вертикальное расположение кнопок */
+            align-items: center; /* Центрирование кнопок по горизонтали */
+            gap: 10px; /* Отступ между кнопками */
+            margin: 20px 0;
         }
         footer {
             text-align: center;
@@ -51,6 +57,7 @@
 <body>
     <h1>"ДОСТАР" еда</h1>
 
+    <!-- Контейнер с автоматическим выравниванием кнопок -->
     <div class="button-container">
         <button id="openWhatsApp1">Триумф шашлык нажмите чтобы заказать</button>
         <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
