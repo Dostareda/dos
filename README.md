@@ -40,7 +40,7 @@
 
     <div class="button-container">
         <button id="openWhatsApp1">Триумф шашлык нажмите чтобы заказать</button>
-        <button id="openWhatsApp2">Доставка супа нажмите чтобы заказать</button>
+        <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
     </div>
 
     <script>
@@ -55,7 +55,7 @@
         // Обработчик для второй кнопки
         const button2 = document.getElementById("openWhatsApp2");
         button2.addEventListener("click", function () {
-            const phoneNumber2 = "77474706060"; // Измените номер, если нужно
+            const phoneNumber2 = "77002726869"; // Измените номер, если нужно
             const url2 = `https://api.whatsapp.com/send?phone=${phoneNumber2}`;
             window.open(url2, "_blank");
         });
