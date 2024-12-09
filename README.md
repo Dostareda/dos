@@ -2,90 +2,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ДОСТАР доставка еды</title>
+    <title>ДОСТАР - Доставка еды</title>
     <style>
         body {
-            background-color: #FFFFFF; /* Белый фон */
-            font-family: Arial, sans-serif; /* Общий стандартный шрифт */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
         }
         h1 {
-            color: #008000; /* Зеленый цвет заголовка */
-            text-align: center; /* Выравнивание заголовка */
+            font-size: 3rem;
+            margin-top: 20px;
+            color: #000;
         }
-        /* Общие стили кнопок */
-        button {
-            padding: 10px 20px; /* Внутренние отступы */
-            background-color: #FFFF00; /* Желтый фон */
-            color: black; /* Черный текст */
-            border: 1px solid green; /* Зеленая рамка */
-            border-radius: 5px; /* Слегка закругленные углы */
-            cursor: pointer;
-            font-size: 16px; /* Размер текста */
-            font-family: Arial, sans-serif; /* Стандартный шрифт для кнопок */
-            text-align: center; /* Центрирование текста */
-            flex-grow: 1; /* Кнопки занимают одинаковое пространство */
-            max-width: 400px; /* Максимальная ширина кнопок */
-            margin: 5px 0; /* Небольшой отступ между кнопками */
+        p {
+            color: yellow;
+            font-size: 1.5rem;
+            margin: 10px 0 20px;
         }
-        button:hover {
-            background-color: #FFD700; /* Темно-желтый при наведении */
-            color: black;
+        .btn {
+            display: inline-block;
+            background-color: green;
+            color: white;
+            font-size: 1.2rem;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
         }
-        /* Контейнер для кнопок с автоматическим выравниванием */
-        .button-container {
-            display: flex; /* Используем flexbox */
-            flex-direction: column; /* Вертикальное расположение кнопок */
-            align-items: center; /* Центрирование кнопок по горизонтали */
-            gap: 10px; /* Отступ между кнопками */
+        .btn:hover {
+            background-color: #005500;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
             margin: 20px 0;
         }
         footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             margin-top: 20px;
-            font-size: 14px;
-            color: #666666;
-            gap: 10px; /* Отступ между элементами */
+            font-size: 0.9rem;
         }
         footer a {
-            color: #808080;
+            color: #000;
             text-decoration: none;
+            margin: 0 10px;
         }
         footer a:hover {
             text-decoration: underline;
         }
-        #visitor-count {
-            font-size: 14px;
-            color: #555555;
-        }
     </style>
 </head>
 <body>
-    <!-- Добавлен перенос строки после слова "ДОСТАР" -->
-    <h1>"ДОСТАР"<br>ДОСТАВКА ЕДЫ</h1>
+    <h1>ДОСТАР</h1>
+    <p>ДОСТАВКА ЕДЫ</p>
 
-    <!-- Контейнер с автоматическим выравниванием кнопок -->
-    <div class="button-container">
-        <button id="openWhatsApp1">Шашлык "Триумф" нажмите чтобы заказать</button>
-        <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
-    </div>
+    <a href="https://wa.me/77474705053"><img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp"></a>
+    <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
 
-        // Обработчик для первой кнопки
-        const button1 = document.getElementById("openWhatsApp1");
-        button1.addEventListener("click", function () {
-            const phoneNumber1 = "77474705053";
-            const url1 = `https://api.whatsapp.com/send?phone=${phoneNumber1}`;
-            window.open(url1, "_blank");
-        });
+    <a href="https://wa.me/77474705053"><img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp"></a>
+    <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
 
-        // Обработчик для второй кнопки
-        const button2 = document.getElementById("openWhatsApp2");
-        button2.addEventListener("click", function () {
-            const phoneNumber2 = "77081175050";
-            const url2 = `https://api.whatsapp.com/send?phone=${phoneNumber2}`;
-            window.open(url2, "_blank");
-        });
-    </script>
+    <a href="https://wa.me/77474705053"><img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp"></a>
+    <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+
+    <footer>
+        <a href="#user-agreement">Пользовательское соглашение</a>
+        <a href="#privacy-policy">Политика конфиденциальности</a>
+    </footer>
 </body>
 </html>
