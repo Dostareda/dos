@@ -65,7 +65,7 @@
     <!-- Первая картинка с описанием -->
     <div>
         <a href="https://wa.me/77474705053">
-            <img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp">
+            <img src="<a href="https://ibb.co.com/9cJXKJQ"><img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Связаться в WhatsApp">
         </a>
         <div class="description">Шашлык</div>
         <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
