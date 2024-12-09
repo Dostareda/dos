@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ДОСТАР - Доставка еды</title>
+    <title>"ДОСТАР"<br>ДОСТАВКА ЕДЫ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
