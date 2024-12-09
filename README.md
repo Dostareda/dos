@@ -67,8 +67,8 @@
         <a href="https://wa.me/77474705053">
             <img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Шашлык, напитки</div>
-        <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+        <div class="description">Шашлык, напитки с 9:00 утра до 22:00 вечера</div>
+        <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
     </div>
 
     <!-- Вторая картинка с описанием -->
@@ -76,8 +76,8 @@
         <a href="https://wa.me/77474705053">
             <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Напитки</div>
-        <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+        <div class="description">Напитки с 9:00 утра до 22:00 вечера</div>
+        <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
     </div>
 
     <!-- Третья картинка с описанием -->
@@ -85,8 +85,8 @@
         <a href="https://wa.me/77474705053">
             <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Донер</div>
-        <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+        <div class="description">Донер с 9:00 утра до 22:00 вечера</div>
+        <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
     </div>
 
     <footer>
