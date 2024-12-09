@@ -54,7 +54,7 @@
     </style>
 </head>
 <body>
-    <h1>ДОСТАР</h1>
+    <h1>"ДОСТАР"</h1>
     <p>ДОСТАВКА ЕДЫ</p>
 
     <a href="https://wa.me/77474705053"><img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp"></a>
