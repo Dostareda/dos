@@ -14,10 +14,10 @@
         h1 {
             font-size: 3rem;
             margin-top: 20px;
-            color: #005500; /* Цвет заголовка */
+            color: #FFF44F; /* Цвет заголовка */
         }
         p {
-            color: #005500; /* Цвет текста */
+            color: #FFF44F; /* Цвет текста */
             font-size: 1.5rem;
             margin: 10px 0 20px;
         }
@@ -39,6 +39,11 @@
             max-width: 300px;
             margin: 20px 0;
         }
+        .description {
+            font-size: 1.1rem;
+            margin: 5px 0;
+            color: #555;
+        }
         footer {
             margin-top: 20px;
             font-size: 0.9rem;
@@ -54,17 +59,35 @@
     </style>
 </head>
 <body>
-    <h1>"ДОСТАР"</h1>
+    <h1>ДОСТАР</h1>
     <p>ДОСТАВКА ЕДЫ</p>
 
-    <a href="https://wa.me/77474705053"><img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Связаться в WhatsApp"></a>
-    <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+    <!-- Первая картинка с описанием -->
+    <div>
+        <a href="https://wa.me/77474705053">
+            <img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp">
+        </a>
+        <div class="description">Шашлык</div>
+        <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+    </div>
 
-    <a href="https://wa.me/77474705053"><img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Связаться в WhatsApp"></a>
-    <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+    <!-- Вторая картинка с описанием -->
+    <div>
+        <a href="https://wa.me/77474705053">
+            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Связаться в WhatsApp">
+        </a>
+        <div class="description">Напитки</div>
+        <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+    </div>
 
-    <a href="https://wa.me/77474705053"><img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Связаться в WhatsApp"></a>
-    <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+    <!-- Третья картинка с описанием -->
+    <div>
+        <a href="https://wa.me/77474705053">
+            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Связаться в WhatsApp">
+        </a>
+        <div class="description">Шашлык</div>
+        <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
+    </div>
 
     <footer>
         <a href="#user-agreement">Пользовательское соглашение</a>
