@@ -90,8 +90,8 @@
     </div>
 
     <footer>
-        <a href="#user-agreement">Пользовательское соглашение</a>
-        <a href="#privacy-policy">Политика конфиденциальности</a>
+        <a href="https://docs.google.com/document/d/1t_EXCycQd9zB6ROtCKMSlA8t1LP8kd32b0rzBIGy3eA/edit?usp=sharing">Пользовательское соглашение</a>
+        <a href="[#privacy-policy](https://docs.google.com/document/d/1KTvB4iE7zBwjng0ut5Prs3xZgzArqqAgFnVuegSeUJA/edit?usp=sharing)">Политика конфиденциальности</a>
     </footer>
 </body>
 </html>
