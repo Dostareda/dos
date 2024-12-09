@@ -14,10 +14,10 @@
         h1 {
             font-size: 3rem;
             margin-top: 20px;
-            color: #FFF44F; /* Цвет заголовка */
+            color: #005500; /* Цвет заголовка */
         }
         p {
-            color: #FFF44F; /* Цвет текста */
+            color: #005500; /* Цвет текста */
             font-size: 1.5rem;
             margin: 10px 0 20px;
         }
