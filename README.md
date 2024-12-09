@@ -71,29 +71,6 @@
         <button id="openWhatsApp2">Донер нажмите чтобы заказать</button>
     </div>
 
-    <!-- Счетчик и пользовательское соглашение в футере -->
-    <footer>
-        <div id="visitor-count">Посетители: 0</div>
-        <a href="terms.html" target="_blank">Пользовательское соглашение</a>
-    </footer>
-
-    <script>
-        // Счетчик посещений
-        function updateVisitorCount() {
-            if (localStorage.getItem("visitorCount")) {
-                let count = parseInt(localStorage.getItem("visitorCount"), 10);
-                count++;
-                localStorage.setItem("visitorCount", count);
-                document.getElementById("visitor-count").innerText = `Посетители: ${count}`;
-            } else {
-                localStorage.setItem("visitorCount", 1);
-                document.getElementById("visitor-count").innerText = `Посетители: 1`;
-            }
-        }
-
-        // Обновляем счетчик при загрузке страницы
-        updateVisitorCount();
-
         // Обработчик для первой кнопки
         const button1 = document.getElementById("openWhatsApp1");
         button1.addEventListener("click", function () {
