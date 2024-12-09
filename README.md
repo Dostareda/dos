@@ -57,7 +57,7 @@
     <h1>"ДОСТАР"</h1>
     <p>ДОСТАВКА ЕДЫ</p>
 
-    <a href="https://wa.me/77474705053"><img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp"></a>
+    <a href="https://wa.me/77474705053"><img src="<a href="https://ibb.co.com/9cJXKJQ"><img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Связаться в WhatsApp"></a>
     <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
 
     <a href="https://wa.me/77474705053"><img src="https://via.placeholder.com/300" alt="Связаться в WhatsApp"></a>
