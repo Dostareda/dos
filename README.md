@@ -76,7 +76,7 @@
         <a href="https://wa.me/77474705053">
             <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Напитки от "..." с 9:00 утра до 22:00 вечера</div>
+        <div class="description">Ваша реклама здесь с 9:00 утра до 22:00 вечера</div>
         <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
     </div>
 
@@ -85,7 +85,7 @@
         <a href="https://wa.me/77474705053">
             <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Донер от "..." с 9:00 утра до 22:00 вечера</div>
+        <div class="description">Ваша реклама здесь с 9:00 утра до 22:00 вечера</div>
         <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
     </div>
 
