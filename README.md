@@ -65,16 +65,16 @@
     <!-- Первая картинка с описанием -->
     <div>
         <a href="https://wa.me/77474705053">
-            <img src="<a href="https://ibb.co.com/9cJXKJQ"><img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Связаться в WhatsApp">
+            <img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Шашлык</div>
+        <div class="description">Шашлык, напитки</div>
         <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
     </div>
 
     <!-- Вторая картинка с описанием -->
     <div>
         <a href="https://wa.me/77474705053">
-            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Связаться в WhatsApp">
+            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Напитки</div>
         <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
@@ -83,9 +83,9 @@
     <!-- Третья картинка с описанием -->
     <div>
         <a href="https://wa.me/77474705053">
-            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Связаться в WhatsApp">
+            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Шашлык</div>
+        <div class="description">Донер</div>
         <a href="https://wa.me/77474705053" class="btn">Написать в WhatsApp</a>
     </div>
 
