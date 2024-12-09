@@ -74,7 +74,7 @@
     <!-- Вторая картинка с описанием -->
     <div>
         <a href="https://wa.me/77474705053">
-            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Заказать в WhatsApp">
+            <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Напитки с 9:00 утра до 22:00 вечера</div>
         <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
@@ -83,7 +83,7 @@
     <!-- Третья картинка с описанием -->
     <div>
         <a href="https://wa.me/77474705053">
-            <img src="https://i.ibb.co.com/LN11W2X/Whats-App-2024-12-06-19-45-39-45e645dc.jpg" alt="Заказать в WhatsApp">
+            <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Донер с 9:00 утра до 22:00 вечера</div>
         <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
