@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"ДОСТАР"<br>ДОСТАВКА ЕДЫ</title>
+    <title>ДОСТАР - Доставка еды</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,10 +14,10 @@
         h1 {
             font-size: 3rem;
             margin-top: 20px;
-            color: #000;
+            color: #FFF44F; /* Цвет заголовка */
         }
         p {
-            color: yellow;
+            color: #FFF44F; /* Цвет текста */
             font-size: 1.5rem;
             margin: 10px 0 20px;
         }
