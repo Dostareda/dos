@@ -64,7 +64,7 @@
 
     <!-- Первая картинка с описанием -->
     <div>
-        <a href="https://wa.me/77474705053">
+        <a href="https://wa.me/77474705053?text=Здравствуйте,%20отправьте%20меню!" target="_blank">
             <img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Шашлык, напитки от "Триумф" с 9:00 утра до 22:00 вечера</div>
