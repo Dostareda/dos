@@ -64,32 +64,40 @@
 <hr>
     <!-- Первая картинка с описанием -->
     <div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте%2С%20отправьте%20меню!" target="_blank">
-            <img src="https://i.ibb.co.com/6r2h92j/Triumf.webp" alt="Заказать в WhatsApp">
+        <a href="https://wa.me/77474705053?text=Здравствуйте%отправьте%меню!" target="_blank">
+            <img src="https://i.ibb.co.com/35VwCvsW/Whats-App-Image-2025-03-15-at-14-50-36-d0b90b77.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Шашлык, напитки от "Триумф" с 9:00 утра до 22:00 вечера</div>
-        <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
+        <div class="description">Шашлык, фастфуд, чикен, фри, сырные палочки, наггетсы от "Marinad", подробности в What's up. с 10:00 утра до 22:00 вечера</div>
+        <a href="https://wa.me/77474705053?text=Здравствуйте%отправьте%меню!" class="btn">Заказать в WhatsApp</a>
     </div>
     <hr>
-
     <!-- Вторая картинка с описанием -->
     <div>
-        <a href="https://wa.me/77474705053">
-            <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
+        <a href="https://wa.me/77474705053?text=Здравствуйте%отправьте%меню!">
+            <img src="https://i.ibb.co.com/7x5287Mw/Aynalaiyn.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Хотите рекламу здесь? пишите в вотсап:</div>
-        <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
+        <div class="description">Выпечка, торты, десерты, подробности в What's up</div>
+        <a href="https://wa.me/77474705053?text=Здравствуйте%отправьте%меню!" class="btn">Заказать в WhatsApp</a>
     </div>
 <hr>
     <!-- Третья картинка с описанием -->
     <div>
+        <a href="https://wa.me/77474705053?text=Здравствуйте%нужна%реклама">
+            <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
+        </a>
+        <div class="description">Хотите рекламу здесь? пишите в вотсап:</div>
+        <a href="https://wa.me/77474705053?text=Здравствуйте%нужна%реклама" class="btn">Заказать в WhatsApp</a>
+    </div>
+<hr>
+    <!-- Четвёртая картинка с описанием -->
+    <!-- <div>
         <a href="https://wa.me/77474705053">
             <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Хотите рекламу здесь? пишите в вотсап:</div>
         <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
-    </div>
-<hr>
+    </div> -->
+
     <footer>
         <a href="https://docs.google.com/document/d/1t_EXCycQd9zB6ROtCKMSlA8t1LP8kd32b0rzBIGy3eA/edit?usp=sharing">Пользовательское соглашение</a>
         <a href="https://docs.google.com/document/d/1KTvB4iE7zBwjng0ut5Prs3xZgzArqqAgFnVuegSeUJA/edit?usp=sharing">Политика конфиденциальности</a>
