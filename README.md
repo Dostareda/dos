@@ -76,7 +76,7 @@
         <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!">
             <img src="https://i.ibb.co.com/7x5287Mw/Aynalaiyn.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Выпечка, торты, десерты, подробности в What's up. Работаем с 09:00 утра до 22:00 вечера</div>
+        <div class="description">Выпечка, торты, десерты, подробности в What's up. Работаем с 09:00 утра до 22:00 вечера:</div>
         <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!!" class="btn">Заказать в WhatsApp</a>
     </div>
 <hr>
