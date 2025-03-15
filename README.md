@@ -85,7 +85,7 @@
         <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама">
             <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
-        <div class="description">Хотите рекламу здесь? пишите в вотсап:</div>
+        <div class="description">Хотите рекламу здесь? пишите в What's up:</div>
         <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама" class="btn">Заказать в WhatsApp</a>
     </div>
 <hr>
