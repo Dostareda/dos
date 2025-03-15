@@ -64,29 +64,29 @@
 <hr>
     <!-- Первая картинка с описанием -->
     <div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте отправьте меню!" target="_blank">
+        <a href="https://wa.me/77072047360?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" target="_blank">
             <img src="https://i.ibb.co.com/35VwCvsW/Whats-App-Image-2025-03-15-at-14-50-36-d0b90b77.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Доставка: Шашлык, фастфуд, чикен, фри, сырные палочки, наггетсы от "Marinad", подробности в What's up. Работаем с 10:00 утра до 22:00 вечера</div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте отправьте меню!" class="btn">Заказать в WhatsApp</a>
+        <a href="https://wa.me/77072047360?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" class="btn">Заказать в WhatsApp</a>
     </div>
     <hr>
     <!-- Вторая картинка с описанием -->
     <div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте%отправьте%меню!">
+        <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!">
             <img src="https://i.ibb.co.com/7x5287Mw/Aynalaiyn.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Выпечка, торты, десерты, подробности в What's up</div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте%отправьте%меню!" class="btn">Заказать в WhatsApp</a>
+        <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!!" class="btn">Заказать в WhatsApp</a>
     </div>
 <hr>
     <!-- Третья картинка с описанием -->
     <div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте%нужна%реклама">
+        <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама">
             <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
         </a>
         <div class="description">Хотите рекламу здесь? пишите в вотсап:</div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте%нужна%реклама" class="btn">Заказать в WhatsApp</a>
+        <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама" class="btn">Заказать в WhatsApp</a>
     </div>
 <hr>
     <!-- Четвёртая картинка с описанием -->
