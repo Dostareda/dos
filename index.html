@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,27 +10,64 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f9f9f9;
+            background-color: #f4f4f4;
+            color: #333;
         }
-        h1 {
-            font-size: 3rem;
+        .logo img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
             margin-top: 20px;
-            color: #005500; /* Цвет заголовка */
         }
-        p {
-            color: #005500; /* Цвет текста */
-            font-size: 1.5rem;
-            margin: 10px 0 20px;
+        .menu {
+            flex-wrap: nowrap;
+            max-width: 100%;  
+            position: sticky;
+            top: 0;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            justify-content: flex-start;
+            white-space: nowrap;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .menu::-webkit-scrollbar {
+            display: none;
+        }
+        .menu a {
+            flex-shrink: 0;
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            padding: 10px 15px;
+            background-color: #FFD700;
+            border-radius: 20px;
+            transition: 0.3s;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            text-align: center;
+            min-width: 120px;
+        }
+        .menu a:hover {
+            background-color: #FFC107;
+            color: #000;
         }
         .btn {
             display: inline-block;
-            background-color: green;
+            background-color: #007a33;
             color: white;
-            font-size: 1.2rem;
+            font-size: 1rem;
             text-decoration: none;
             padding: 10px 20px;
             margin: 10px 0;
-            border-radius: 5px;
+            border-radius: 8px;
+            transition: 0.3s;
         }
         .btn:hover {
             background-color: #005500;
@@ -37,70 +75,157 @@
         img {
             width: 100%;
             max-width: 300px;
+            height: auto;
             margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .description {
-            font-size: 1.1rem;
-            margin: 5px 0;
+            font-size: 1rem;
+            margin: 10px 0;
             color: #555;
+            padding: 0 10px;
         }
-        footer {
-            margin-top: 20px;
-            font-size: 0.9rem;
+        .section {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            padding: 20px;
         }
-        footer a {
-            color: #000;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        footer a:hover {
-            text-decoration: underline;
+        .active {
+            display: block;
+            opacity: 1;
         }
     </style>
 </head>
 <body>
-    <h1>"ДОСТАР"</h1>
-    <p>ДОСТАВКА ЕДЫ</p>
-<hr>
-    <!-- Первая картинка с описанием -->
-    <div>
-        <a href="https://wa.me/77072047360?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" target="_blank">
-            <img src="https://i.ibb.co.com/35VwCvsW/Whats-App-Image-2025-03-15-at-14-50-36-d0b90b77.jpg" alt="Заказать в WhatsApp">
-        </a>
-        <div class="description">Доставка: Шашлык, фастфуд, чикен, фри, сырные палочки, наггетсы от "Marinad", подробности в What's up. Работаем с 10:00 утра до 22:00 вечера:</div>
-        <a href="https://wa.me/77072047360?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" class="btn">Заказать в WhatsApp</a>
+    <div class="logo">
+        <img src="https://i.ibb.co/jk5wYq7c/2-optimized.png" alt="ДОСТАВКА ЕДЫ">
     </div>
-    <hr>
-    <!-- Вторая картинка с описанием -->
-    <div>
-        <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!">
-            <img src="https://i.ibb.co.com/7x5287Mw/Aynalaiyn.jpg" alt="Заказать в WhatsApp">
-        </a>
-        <div class="description">Выпечка, торты, десерты от кондитерской "Aynalayin" подробности в What's up. Работаем с 09:00 утра до 22:00 вечера:</div>
-        <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!!" class="btn">Заказать в WhatsApp</a>
+    
+    <div class="menu">
+        <a onclick="showSection('gotovaya-eda')">Готовая еда</a>
+        <a onclick="showSection('deserty')">Десерты</a>
+        <a onclick="showSection('kofe')">Кофе</a>
+        <a onclick="showSection('detyam')">Любят Дети</a>
     </div>
-<hr>
-    <!-- Третья картинка с описанием -->
-    <div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама">
-            <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
-        </a>
-        <div class="description">Хотите рекламу здесь? пишите в What's up:</div>
-        <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама" class="btn">Заказать в WhatsApp</a>
-    </div>
-<hr>
-    <!-- Четвёртая картинка с описанием -->
-    <!-- <div>
-        <a href="https://wa.me/77474705053">
-            <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
-        </a>
-        <div class="description">Хотите рекламу здесь? пишите в вотсап:</div>
-        <a href="https://wa.me/77474705053" class="btn">Заказать в WhatsApp</a>
-    </div> -->
+    
+    <div id="gotovaya-eda" class="section active">
+        <h2>Готовая еда</h2>
 
+<!-- Degirmen 
+    <h3>"Degirmen"</h3>
+        <a href="https://wa.me/77076154366?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" target="_blank">
+        <img src="https://i.ibb.co.com/Z1868xDZ/Whats-App-2025-03-25-15-04-23-2ff03606.jpg" alt="Заказать в WhatsApp"></a>
+        <div class="description">Доставка: Донер в лаваше куриный, говяжий, ассорти, донер в тандыре, донер в батоне, донер на тарелке, гамбургер, чизбургер, стейки и шашлыки</div>
+        <div> Работаем с 10:00 утра до 22:00 вечера:</div>
+    <a href="https://api.whatsapp.com/send?phone=77076154366" class="btn">Заказать в WhatsApp</a>
+
+ <hr> -->
+
+<!-- Makeba Doner -->
+        <h3>"Makeba"</h3>
+            <a href="https://wa.me/77057067219?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" target="_blank">
+            <img src="https://i.ibb.co.com/67GjF5Xv/Whats-App-2025-03-25-14-41-13-2c9d3b19.jpg" alt="Заказать в WhatsApp">
+             </a>
+             <div class="description">Доставка: Донер в лаваше, в батоне (куриный, говяжий, ассорти), картофель фри, наггетсы, соусы</div>
+                <div> Работаем с 10:00 утра до 22:00 вечера:</div>
+                <a href="https://api.whatsapp.com/send?phone=77057067219" class="btn">Заказать в WhatsApp</a>
+
+ <hr>
+
+
+<!-- Триумф -->
+    <h3>"Marinad"</h3>
+        <a href="https://wa.me/77072047360?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" target="_blank">
+            <img src="https://i.ibb.co/35VwCvsW/Whats-App-Image-2025-03-15-at-14-50-36-d0b90b77.jpg" alt="Заказать в WhatsApp">
+        </a>
+        <div class="description">Доставка: шашлык(готовый и маринад), фастфуд, чикен, фри, сырные палочки, наггетсы от "Marinad"</div>
+        <div> Работаем с 10:00 утра до 22:00 вечера:</div>
+        <a href="https://api.whatsapp.com/send?phone=77072047360" class="btn">Заказать в WhatsApp</a>
+        <hr>
+                <!-- Автовокзал Диана -->
+<div>
+    
+<!-- Диана 
+     <h3>"Диана"</h3>
+        <a href="https://wa.me/77788419383?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!">
+            <img src="https://i.ibb.co.com/B2FnhbWm/Whats-App-2025-03-21-23-31-16-019f3a64.jpg" alt="Заказать в WhatsApp">
+        </a>
+        <div class="description">Доставка: Бешбармак, Сирне, Куырдак, Кеспе, Манпар и другие блюда</div> 
+        <div>Работаем с 05:00 до 20:00.</div>
+        <a href="https://wa.me/77788419383?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!" class="btn">Заказать в WhatsApp</a>
+    </div> -->
+        <!-- Моя реклама -->
+        <hr>
+        <div>
+            <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама">
+                <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
+            </a>
+            <div class="description">Хотите рекламу здесь? пишите в What's up:</div>
+            <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама" class="btn">Заказать в WhatsApp</a>
+        </div>
+        <hr>
+    </div>
+    
+     <div id="deserty" class="section">
+        <h2>Десерты</h2>
+        <h3>"Aynalayin"</h3>
+        <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!">
+            <img src="https://i.ibb.co/7x5287Mw/Aynalaiyn.jpg" alt="Заказать в WhatsApp">
+        </a>
+        <div>Доставка: Выпечка, торты, десерты</div>
+            <div>Работаем с 09:00 до 22:00.</div>
+            <a href="https://wa.me/77475704515?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!!" class="btn">Заказать в WhatsApp</a>
+            <hr>
+<!-- Qulpynay 
+   <h3>"Qulpinay"</h3>
+            <a href="https://wa.me/77754599061?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!">
+                <img src="https://i.ibb.co.com/mCBh6KB1/Whats-App-2025-03-21-18-10-52-b2c5c0a5.jpg" alt="Заказать в WhatsApp">
+            </a>
+            <div>Доставка: Клубника в шоколаде</div>
+                <div>Работаем с 09:00 до 21:00.</div>
+                <a href="https://wa.me/77754599061?text=Здравствуйте, нашёл вас в приложении 'ДОСТАР', нужна доставка!!" class="btn">Заказать в WhatsApp</a>
+</div> -->
+                <!-- Моя реклама -->
+        <hr>
+
+    </div>
+        <div id="kofe" class="section">
+        <h2>Кофе</h2>
+            <!-- Моя реклама -->
+            <div>
+                <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама">
+                    <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
+                </a>
+                <div class="description">Хотите рекламу здесь? пишите в What's up:</div>
+                <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама" class="btn">Заказать в WhatsApp</a>
+            </div>
+    </div>
+    
+    <div id="detyam" class="section">
+        <h2>Любят Дети</h2>
+            <!-- Моя реклама -->
+            <div>
+                <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама">
+                    <img src="https://i.ibb.co.com/7kJh79G/Dostar.jpg" alt="Заказать в WhatsApp">
+                </a>
+                <div class="description">Хотите рекламу здесь? пишите в What's up:</div>
+                <a href="https://wa.me/77474705053?text=Здравствуйте нужна реклама" class="btn">Заказать в WhatsApp</a>
+            </div>
+    </div>
+    
     <footer>
         <a href="https://docs.google.com/document/d/1t_EXCycQd9zB6ROtCKMSlA8t1LP8kd32b0rzBIGy3eA/edit?usp=sharing">Пользовательское соглашение</a>
         <a href="https://docs.google.com/document/d/1KTvB4iE7zBwjng0ut5Prs3xZgzArqqAgFnVuegSeUJA/edit?usp=sharing">Политика конфиденциальности</a>
     </footer>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
 </body>
 </html>
